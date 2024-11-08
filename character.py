@@ -28,10 +28,10 @@ for item in array[1:]:
     if int(item[1][0]) > int(attack[1][0]):
         attack = item
 
-defesa = array[0]
+defense = array[0]
 for item in array[1:]:
-    if int(item[1][1]) > int(defesa[1][1]):
-        defesa = item
+    if int(item[1][1]) > int(defense[1][1]):
+        defense = item
 
 print("Attack", attack[0], attack[1][0])
-print("Defesa", defesa[0], defesa[1][1])
+print("Defense", defense[0], defense[1][1])
